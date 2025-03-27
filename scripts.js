@@ -56,7 +56,13 @@ const flags = [
     history: "Brazil's history begins with rich indigenous cultures long before Portuguese explorer Pedro Álvares Cabral arrived in 1500. It became a Portuguese colony, thriving on sugar and gold, and relied heavily on enslaved African labor. Brazil declared independence in 1822 and remained a monarchy until 1889, when it became a republic. After a period of military dictatorship from 1964 to 1985, Brazil transitioned back to democracy and is now the largest country in South America, known for its cultural diversity, natural beauty, and complex political history.",
     modalImage: "https://www.planetware.com/wpimages/2020/02/brazil-in-pictures-beautiful-places-to-photograph-botafogo-bay.jpg"
 
-  } 
+  } ,
+  {
+    name: "palestine",
+    image: "images/palestine.png",
+    history: "Palestine is a historic region in the Middle East, situated between the Mediterranean Sea and the Jordan River, with a history dating back thousands of years. It has been home to ancient civilizations like the Canaanites and Philistines and later became significant in Jewish, Christian, and Islamic traditions. Over centuries, it was ruled by various empires including the Romans, Byzantines, and Ottomans. In the 20th century, the region became a focal point of conflict following the collapse of the Ottoman Empire, the British Mandate, and the creation of the state of Israel in 1948. This led to the displacement of many Palestinians and ongoing disputes over land, identity, and sovereignty, particularly in the West Bank, Gaza Strip, and East Jerusalem. Today, Palestine refers to both a geographic region and a partially recognized state seeking independence amid a complex and deeply rooted conflict",
+    modalImage: "https://www.worldatlas.com/r/w1200-h630-c1200x630/upload/11/e2/a6/shutterstock-391580266.jpg",
+  }
 ];
 
 // Create a card element for a flag
