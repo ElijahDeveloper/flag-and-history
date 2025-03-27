@@ -49,7 +49,14 @@ const flags = [
     image: "images/cuba.png",
     history: "Cuba,[c] officially the Republic of Cuba,[d] is an island country, comprising the island of Cuba (largest island), Isla de la Juventud, and 4,195 islands, islets and cays surrounding the main island. It is located where the northern Caribbean Sea, Gulf of Mexico, and Atlantic Ocean meet. Cuba is located east of the Yucatán Peninsula (Mexico), south of both Florida and the Bahamas, west of Hispaniola (Haiti/Dominican Republic), and north of Jamaica and the Cayman Islands. Havana is the largest city and capital. Cuba is the third-most populous country in the Caribbean after Haiti and the Dominican Republic, with about 10 million inhabitants. It is the largest country in the Caribbean by area.",
     modalImage:"https://www.planetware.com/wpimages/2019/12/cuba-in-pictures-beautiful-places-to-photograph-vinales.jpg"
-  }
+  },
+  {
+    name: "brazil",
+    image: "images/brazil.png",
+    history: "Brazil's history begins with rich indigenous cultures long before Portuguese explorer Pedro Álvares Cabral arrived in 1500. It became a Portuguese colony, thriving on sugar and gold, and relied heavily on enslaved African labor. Brazil declared independence in 1822 and remained a monarchy until 1889, when it became a republic. After a period of military dictatorship from 1964 to 1985, Brazil transitioned back to democracy and is now the largest country in South America, known for its cultural diversity, natural beauty, and complex political history.",
+    modalImage: "https://www.planetware.com/wpimages/2020/02/brazil-in-pictures-beautiful-places-to-photograph-botafogo-bay.jpg"
+
+  } 
 ];
 
 // Create a card element for a flag
