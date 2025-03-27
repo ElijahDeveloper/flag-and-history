@@ -1,0 +1,167 @@
+/* styles.css */
+
+/* Global resets & base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4516c5;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Site title */
+h1 {
+  text-align: center;
+  color: #f1efef;
+  font-family: 'Boldonse', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 0.75rem 1rem;
+}
+
+.navbar .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Boldonse', sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background 0.2s;
+}
+
+.nav-links a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+/* Mobile navbar */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #333;
+    flex-direction: column;
+    width: 180px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+  }
+  .nav-links.open {
+    transform: translateX(0);
+  }
+  .nav-links li {
+    margin: 0;
+  }
+}
+
+/* Cards container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card .card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Modal styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Limit modal image size */
+.modal-image-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal-image-section img {
+  max-width: 100%;
+  max-height: 300px; /* adjust height as needed */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
